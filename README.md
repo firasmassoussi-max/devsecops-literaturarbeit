@@ -13,13 +13,11 @@ Das Repository dokumentiert eine Literaturarbeit im Studiengang **Cyber Security
 
 | Dokument | Datei |
 | --- | --- |
-| Schriftliche Arbeit | [DevSecOps-Firas-Massoussi.pdf](dokumentation/DevSecOps-Firas-Massoussi.pdf) |
+| Schriftliche Arbeit | [Vollständige Arbeit direkt lesen](dokumentation/README.md) |
 | Abschlussvortrag als PDF | [Abschlussvortrag.pdf](praesentation/Abschlussvortrag.pdf) |
 | Bearbeitbare PowerPoint-Präsentation | [Abschlussvortrag.pptx](praesentation/Abschlussvortrag.pptx) |
-| Vortragsskript | [Vortragsskript.pdf](praesentation/Vortragsskript.pdf) |
-| Weitere bereitgestellte PDF-Fassung | [Abschlussvortrag-Alternative.pdf](praesentation/varianten/Abschlussvortrag-Alternative.pdf) |
 
-Die Originaldateien wurden inhaltlich unverändert übernommen und für die Ablage umbenannt. Die PDF-Fassungen des Vortrags und die PowerPoint-Datei liegen als eigenständige bereitgestellte Versionen vor.
+Die vollständige schriftliche Arbeit ist im Ordner `dokumentation` direkt als Markdown lesbar. Der Abschlussvortrag liegt in einer ausgewählten PDF-Fassung mit „Grenze & Ausblick“ auf der Schlussfolie vor. Die bearbeitbare PowerPoint-Datei bleibt zusätzlich verfügbar.
 
 ## Forschungsfrage
 
@@ -53,7 +51,7 @@ Als weiterführende Untersuchung wird eine praktisch umgesetzte Beispiel-Pipelin
 
 ## Quellen
 
-Das vollständige Literatur- und Quellenverzeichnis befindet sich auf den Seiten 19–20 der [schriftlichen Arbeit](dokumentation/DevSecOps-Firas-Massoussi.pdf).
+Das vollständige [Literatur- und Quellenverzeichnis](dokumentation/README.md#literatur--und-quellenverzeichnis) befindet sich am Ende der schriftlichen Arbeit.
 
 ## Autor
 
