@@ -1,59 +1,28 @@
-# Automatisierte Sicherheitstests in CI/CD-Pipelines
+# Automatisierte Sicherheitstests in CI/CD-Pipelines: DevSecOps als Ansatz für sichere Softwareentwicklung
 
-**DevSecOps als Ansatz für sichere Softwareentwicklung**  
-Literaturarbeit von **Firas Massoussi** · Hochschule Bonn-Rhein-Sieg
+**Firas Massoussi** · Hochschule Bonn-Rhein-Sieg  
+Cyber Security & Privacy · Literatur-Seminar · Prof. Dr. Hackelöer
 
-## Überblick
+Diese Literaturarbeit untersucht, wie automatisierte Sicherheitstests in CI/CD-Pipelines Sicherheitsprobleme frühzeitig sichtbar machen können. Im Mittelpunkt stehen DevSecOps, Shift Left Security sowie SAST, DAST, SCA, Secret Scanning und Container Scanning.
 
-Diese Arbeit untersucht, wie automatisierte Sicherheitstests in CI/CD-Pipelines Sicherheitsprobleme frühzeitig sichtbar machen können. Im Mittelpunkt stehen DevSecOps, Shift Left Security und das Zusammenspiel technischer Prüfungen mit klaren Prozessen und gemeinsamer Verantwortung.
+## Arbeit lesen
 
-Das Repository dokumentiert eine Literaturarbeit im Studiengang **Cyber Security & Privacy**, Modul **Literatur-Seminar**, bei **Prof. Dr. Hackelöer**. Es enthält die schriftliche Arbeit sowie die Unterlagen zum Abschlussvortrag.
+[**Automatisierte Sicherheitstests in CI/CD-Pipelines: DevSecOps als Ansatz für sichere Softwareentwicklung**](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/README.md)
 
-## Dokumente
+Die Arbeit ist in einzelne Kapitel gegliedert:
 
-| Dokument | Datei |
-| --- | --- |
-| Schriftliche Arbeit | [Vollständige Arbeit direkt lesen](dokumentation/README.md) |
-| Abschlussvortrag als PDF | [Abschlussvortrag.pdf](praesentation/Abschlussvortrag.pdf) |
-| Bearbeitbare PowerPoint-Präsentation | [Abschlussvortrag.pptx](praesentation/Abschlussvortrag.pptx) |
+- [1. Einleitung](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/01-Einleitung.md)
+- [2. Grundlagen und verwandte Arbeiten](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/02-Grundlagen-und-verwandte-Arbeiten.md)
+- [3. Methodik](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/03-Methodik.md)
+- [4. Ergebnisse und Bewertung](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/04-Ergebnisse-und-Bewertung.md)
+- [5. Fazit](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/05-Fazit.md)
+- [Literatur- und Quellenverzeichnis](Automatisierte%20Sicherheitstests%20in%20CI-CD-Pipelines%20-%20DevSecOps%20als%20Ansatz%20f%C3%BCr%20sichere%20Softwareentwicklung/06-Literatur-und-Quellenverzeichnis.md)
 
-Die vollständige schriftliche Arbeit ist im Ordner `dokumentation` direkt als Markdown lesbar. Der Abschlussvortrag liegt in einer ausgewählten PDF-Fassung mit „Grenze & Ausblick“ auf der Schlussfolie vor. Die bearbeitbare PowerPoint-Datei bleibt zusätzlich verfügbar.
+## Abschlussvortrag
 
-## Forschungsfrage
+- [Abschlussvortrag als PDF](praesentation/Abschlussvortrag.pdf)
+- [Bearbeitbare PowerPoint-Präsentation](praesentation/Abschlussvortrag.pptx)
 
-Wie können automatisierte Sicherheitstests in CI/CD-Pipelines dazu beitragen, Sicherheitsprobleme frühzeitig im Softwareentwicklungsprozess zu erkennen, und welche Vorteile sowie Herausforderungen ergeben sich daraus für das Software Engineering?
+## Umfang
 
-## Untersuchte Sicherheitstests
-
-Die folgende Übersicht fasst die Einordnung in der Arbeit zusammen:
-
-| Testart | Prüfobjekt | Typische Einordnung in der Pipeline |
-| --- | --- | --- |
-| SAST | Quellcode | Commit, Pull Request oder Build |
-| DAST | Laufende Anwendung | Testumgebung |
-| SCA / Dependency Scanning | Externe Bibliotheken und Abhängigkeiten | Build |
-| Secret Scanning | Zugangsdaten im Code und in der Git-Historie | Commit oder Pull Request |
-| Container Scanning | Container-Images und enthaltene Pakete | Vor dem Deployment |
-
-## Zentrale Ergebnisse der Literaturarbeit
-
-- Unterschiedliche Testarten ergänzen sich, weil sie verschiedene Prüfobjekte und Risiken abdecken.
-- Frühe und regelmäßige Prüfungen können schnellere Rückmeldungen und bessere Nachvollziehbarkeit ermöglichen.
-- Die Bewertung und Bearbeitung von Funden benötigt klare Zuständigkeiten und Security-Wissen.
-- Fehlalarme, Pflegeaufwand und die Auswahl geeigneter Werkzeuge bleiben Herausforderungen.
-- Auch die CI/CD-Infrastruktur selbst muss geschützt werden.
-
-## Umfang und Grenzen
-
-Die Bewertung basiert auf wissenschaftlicher und fachlicher Literatur. Im Rahmen der Arbeit wurde keine eigene CI/CD-Pipeline implementiert und keine praktische Messung von Erkennungsrate, Fehlalarmen oder Laufzeit durchgeführt. Dieses Repository enthält daher Dokumentation und Präsentationsmaterialien.
-
-Als weiterführende Untersuchung wird eine praktisch umgesetzte Beispiel-Pipeline mit Messungen zu Laufzeit, Fehlalarmen und Sicherheitsfunden vorgeschlagen.
-
-## Quellen
-
-Das vollständige [Literatur- und Quellenverzeichnis](dokumentation/README.md#literatur--und-quellenverzeichnis) befindet sich am Ende der schriftlichen Arbeit.
-
-## Autor
-
-**Firas Massoussi**  
-Cyber Security & Privacy · Hochschule Bonn-Rhein-Sieg
+Die Arbeit basiert auf wissenschaftlicher und fachlicher Literatur. Es wurde keine eigene CI/CD-Pipeline implementiert und keine praktische Messung von Erkennungsrate, Fehlalarmen oder Laufzeit durchgeführt.
